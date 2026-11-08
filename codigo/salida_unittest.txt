@@ -1,0 +1,42 @@
+test_proveedor_depende_de_interfaces (tests.test_extensiones.TestExtensiones.test_proveedor_depende_de_interfaces) ... ok
+test_residente_observa_pero_no_es_principal_ni_inicia (tests.test_extensiones.TestExtensiones.test_residente_observa_pero_no_es_principal_ni_inicia) ... ok
+test_rn10_vencimiento_45_min (tests.test_surgiplan.TestConfirmacionYPermisos.test_rn10_vencimiento_45_min) ... ok
+test_rn13_cancelacion_tardia (tests.test_surgiplan.TestConfirmacionYPermisos.test_rn13_cancelacion_tardia) ... ok
+test_rn16_permisos (tests.test_surgiplan.TestConfirmacionYPermisos.test_rn16_permisos) ... ok
+test_rn8_consentimiento_antiguo (tests.test_surgiplan.TestConfirmacionYPermisos.test_rn8_consentimiento_antiguo) ... ok
+test_rn8_menor_exige_representante (tests.test_surgiplan.TestConfirmacionYPermisos.test_rn8_menor_exige_representante) ... ok
+test_rn8_sin_evaluacion_aprobada (tests.test_surgiplan.TestConfirmacionYPermisos.test_rn8_sin_evaluacion_aprobada) ... ok
+test_07_emergencia_desplaza_a_la_electiva_correcta (tests.test_surgiplan.TestEmergencia.test_07_emergencia_desplaza_a_la_electiva_correcta) ... ok
+test_bloqueo_optimista_dos_coordinadores (tests.test_surgiplan.TestEmergencia.test_bloqueo_optimista_dos_coordinadores) ... ok
+test_idempotencia_de_la_solicitud_de_desplazamiento (tests.test_surgiplan.TestEmergencia.test_idempotencia_de_la_solicitud_de_desplazamiento) ... ok
+test_rn3_en_emergencia_no_desplaza_si_falla (tests.test_surgiplan.TestEmergencia.test_rn3_en_emergencia_no_desplaza_si_falla) ... ok
+test_rn9_desempate_inicio_mas_tardio (tests.test_surgiplan.TestEmergencia.test_rn9_desempate_inicio_mas_tardio) ... ok
+test_rn9_ninguna_electiva_desplazable (tests.test_surgiplan.TestEmergencia.test_rn9_ninguna_electiva_desplazable) ... ok
+test_rn9_no_desplaza_en_curso (tests.test_surgiplan.TestEmergencia.test_rn9_no_desplaza_en_curso) ... ok
+test_semiabierto (tests.test_surgiplan.TestFranja.test_semiabierto) ... ok
+test_validacion_y_valor (tests.test_surgiplan.TestFranja.test_validacion_y_valor) ... ok
+test_04_cancelar_en_curso_rechazado (tests.test_surgiplan.TestMaquinaEstados.test_04_cancelar_en_curso_rechazado) ... ok
+test_05_cancelada_no_reprogramable (tests.test_surgiplan.TestMaquinaEstados.test_05_cancelada_no_reprogramable) ... ok
+test_06_cierre_sin_conteo_final_verificado_rechazado (tests.test_surgiplan.TestMaquinaEstados.test_06_cierre_sin_conteo_final_verificado_rechazado) ... ok
+test_aborto_clinico_desde_interrumpida (tests.test_surgiplan.TestMaquinaEstados.test_aborto_clinico_desde_interrumpida) ... ok
+test_flujo_completo_costos_y_quirofano (tests.test_surgiplan.TestMaquinaEstados.test_flujo_completo_costos_y_quirofano) ... ok
+test_historia_profunda_al_reanudar (tests.test_surgiplan.TestMaquinaEstados.test_historia_profunda_al_reanudar) ... ok
+test_notificacion_por_canales_y_fallo_aislado (tests.test_surgiplan.TestMaquinaEstados.test_notificacion_por_canales_y_fallo_aislado) ... ok
+test_posponer_y_reprogramar_no_crean_cirugia_nueva (tests.test_surgiplan.TestMaquinaEstados.test_posponer_y_reprogramar_no_crean_cirugia_nueva) ... ok
+test_quirofano_maquina_propia (tests.test_surgiplan.TestMaquinaEstados.test_quirofano_maquina_propia) ... ok
+test_01_franjas_contiguas_respetan_limpieza (tests.test_surgiplan.TestProgramacion.test_01_franjas_contiguas_respetan_limpieza) ... ok
+test_02_solapamiento_rechazado_rn1 (tests.test_surgiplan.TestProgramacion.test_02_solapamiento_rechazado_rn1) ... ok
+test_03_sin_circulante_rechazado_rn2 (tests.test_surgiplan.TestProgramacion.test_03_sin_circulante_rechazado_rn2) ... ok
+test_rn2_un_profesional_un_rol (tests.test_surgiplan.TestProgramacion.test_rn2_un_profesional_un_rol) ... ok
+test_rn3_solape_de_profesional (tests.test_surgiplan.TestProgramacion.test_rn3_solape_de_profesional) ... ok
+test_rn3_tope_12_horas (tests.test_surgiplan.TestProgramacion.test_rn3_tope_12_horas) ... ok
+test_rn4_habilitacion_vencida (tests.test_surgiplan.TestProgramacion.test_rn4_habilitacion_vencida) ... ok
+test_rn5_inicio_pasado_solo_emergencia (tests.test_surgiplan.TestProgramacion.test_rn5_inicio_pasado_solo_emergencia) ... ok
+test_rn5_recargo_asa (tests.test_surgiplan.TestProgramacion.test_rn5_recargo_asa) ... ok
+test_rn6_equipo_no_operativo (tests.test_surgiplan.TestProgramacion.test_rn6_equipo_no_operativo) ... ok
+test_rn7_una_cirugia_por_solicitud (tests.test_surgiplan.TestProgramacion.test_rn7_una_cirugia_por_solicitud) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.018s
+
+OK

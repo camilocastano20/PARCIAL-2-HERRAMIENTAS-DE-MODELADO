@@ -1,0 +1,15 @@
+== CASO CORRECTO ==
+Cirugía C-0001: estado=PROGRAMADA, duración mínima (ASA 3)=113 min, programada=113 min
+tras confirmar: CONFIRMADA
+tras iniciar: EN_CURSO | quirófano: OCUPADO
+  auditoría: [inicial] -> PROGRAMADA por CO1 (programar)
+  auditoría: PROGRAMADA -> CONFIRMADA por CO1 (confirmar)
+  auditoría: CONFIRMADA -> EN_CURSO por CX1 (iniciar)
+correos enviados: 9
+
+== CASO DE ERROR (cancelar una cirugía EN_CURSO, RN10) ==
+TransicionInvalidaError: [RN10] Una cirugía EN_CURSO no puede cancelarse. | regla = RN10
+estado se mantiene: EN_CURSO
+
+== CASO DE ERROR (finalizar sin conteo final verificado, RN11) ==
+GuardaIncumplidaError: [RN11] No se puede finalizar: la fase CIERRE no se ha completado. | regla = RN11
